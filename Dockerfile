@@ -1,4 +1,6 @@
 FROM python:3.6-slim
+RUN mkdir /pyapp
 COPY . /pyapp
 WORKDIR /pyapp
-CMD ['python3','pyproject1']
+RUN cat pyproject1.py
+CMD ["python3","pyproject1.py"]
