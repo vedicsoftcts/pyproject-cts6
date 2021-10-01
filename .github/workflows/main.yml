@@ -35,6 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Run Python script
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-      - run: python pyproject1.py
+        run: python pyproject1.py
