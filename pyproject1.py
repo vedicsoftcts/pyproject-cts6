@@ -1,5 +1,5 @@
-a=int(input("a="))
-b=int(input("b="))
+a=100
+b=232
 if a > b:
     print("a is greater than b")
     print("a-b",a-b)
